@@ -1,0 +1,5 @@
+{
+  "ACReactComponentGenerator.styleFile.type": "sass (.scss)",
+  "ACReactComponentGenerator.mainFile.extension": "jsx",
+  "ACReactComponentGenerator.indexFile.extension": "js"
+}
