@@ -1,0 +1,17 @@
+.footer-wrapper {
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  height: 60px;
+  .lissu-finish-logo {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-weight: 900;
+    font-size: 40px;
+    cursor: pointer;
+    &:hover {
+      color: #b8f57f;
+    }
+  }
+}

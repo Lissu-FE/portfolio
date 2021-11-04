@@ -1,0 +1,48 @@
+.lissu-hello-wrapper {
+  padding: 200px 50px 50px;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba($color: #ffffff, $alpha: 0.1);
+  .memoji-wrapper {
+    border-radius: 300px;
+    width: fit-content;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 30px;
+    .memoji {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .my-role {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid red;
+    margin-bottom: 30px;
+  }
+  .social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    .social-icons {
+      cursor: pointer;
+      width: 48px;
+      height: 48px;
+      padding: 2px;
+      &.git {
+        background-color: white;
+        border-radius: 48px;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

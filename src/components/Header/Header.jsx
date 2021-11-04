@@ -1,19 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-//import { Test } from './Header.styles';
+import './HeaderStyle.scss'
 
-const Header = (props) => (
-  <div className="HeaderWrapper">
-    Test content
-  </div>
-);
+const Header = () => {
+  return (
+    <div className='lissu-header-wrapper'>
+      <div className='lissu-logo'>&lt; Lissu &gt;</div>
+      <div>menu</div>
+    </div>
+  )
+}
 
-Header.propTypes = {
-  // bla: PropTypes.string,
-};
-
-Header.defaultProps = {
-  // bla: 'test',
-};
-
-export default Header;
+export default Header
