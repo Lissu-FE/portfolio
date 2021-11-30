@@ -13,6 +13,12 @@ const Skills = (props) => {
           </div>
         ))}
       </div>
+      <div className='sub-title'>Version Control</div>
+      <div className='icon-wrapper'></div>
+      <div className='sub-title'>Communication</div>
+      <div className='icon-wrapper'></div>
+      <div className='sub-title'>Certificate</div>
+      <div className='icon-wrapper'></div>
     </div>
   )
 }

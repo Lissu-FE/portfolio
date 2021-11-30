@@ -7,6 +7,7 @@ import react from '../../assets/react.png'
 import redux from '../../assets/redux.png'
 import nextjs from '../../assets/nextjs.png'
 import java from '../../assets/java.png'
+import github from '../../assets/github.png'
 
 export const frontEndSkills = [
   {
@@ -44,5 +45,9 @@ export const frontEndSkills = [
   {
     src: java,
     alt: 'java'
+  },
+  {
+    src: github,
+    alt: 'github'
   }
 ]
