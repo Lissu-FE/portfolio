@@ -11,7 +11,7 @@ const WorkExperience = () => {
       </div>
       <div className='workbox-section'>
         <div className='my-position'>Front-End Developer</div>
-        <div>넥스트레벨스튜디오</div>
+        <div>Pixelsc</div>
         <div>2019.11 ~ </div>
       </div>
     </div>
