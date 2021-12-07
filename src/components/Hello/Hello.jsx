@@ -1,6 +1,6 @@
 import './HelloStyle.scss'
 import memoji from '../../assets/memoji.png'
-import gitHub from '../../assets/git-hub.png'
+import gitHub from '../../assets/github.png'
 import tistory from '../../assets/tistory.png'
 import instagram from '../../assets/instagram.png'
 

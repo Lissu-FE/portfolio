@@ -6,8 +6,22 @@ import sass from '../../assets/sass.png'
 import react from '../../assets/react.png'
 import redux from '../../assets/redux.png'
 import nextjs from '../../assets/nextjs.png'
-import java from '../../assets/java.png'
+
 import github from '../../assets/github.png'
+import git from '../../assets/git.png'
+
+import jira from '../../assets/jira.png'
+import confluence from '../../assets/confluence.png'
+import figma from '../../assets/figma.png'
+import xd from '../../assets/xd.png'
+import storybook from '../../assets/storybook.png'
+
+import qNet from '../../assets/q-net.jpeg'
+
+import java from '../../assets/java.png'
+import oracle from '../../assets/oracle.png'
+import mysql from '../../assets/mysql.png'
+import strapi from '../../assets/strapi.png'
 
 export const frontEndSkills = [
   {
@@ -41,13 +55,65 @@ export const frontEndSkills = [
   {
     src: nextjs,
     alt: 'nextjs'
+  }
+]
+
+export const versionControlSkills = [
+  {
+    src: github,
+    alt: 'github'
   },
+  {
+    src: git,
+    alt: 'git'
+  }
+]
+
+export const communicationSkills = [
+  {
+    src: jira,
+    alt: 'jira'
+  },
+  {
+    src: confluence,
+    alt: 'confluence'
+  },
+  {
+    src: figma,
+    alt: 'figma'
+  },
+  {
+    src: xd,
+    alt: 'xd'
+  },
+  {
+    src: storybook,
+    alt: 'storybook'
+  }
+]
+
+export const certificateSkills = [
+  {
+    src: qNet,
+    alt: '정보처리기사'
+  }
+]
+
+export const backEndSkills = [
   {
     src: java,
     alt: 'java'
   },
   {
-    src: github,
-    alt: 'github'
+    src: oracle,
+    alt: 'oracle'
+  },
+  {
+    src: mysql,
+    alt: 'mysql'
+  },
+  {
+    src: strapi,
+    alt: 'strapi'
   }
 ]

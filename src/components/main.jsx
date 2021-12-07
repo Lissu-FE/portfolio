@@ -2,6 +2,7 @@ import Header from './Header'
 import Hello from './Hello'
 import Skills from './Skills'
 import AboutMe from './AboutMe'
+import WorkExperience from './WorkExperience'
 import Footer from './Footer'
 
 const Main = () => {
@@ -11,6 +12,7 @@ const Main = () => {
       <Hello />
       <Skills />
       <AboutMe />
+      <WorkExperience />
       <Footer />
     </div>
   )

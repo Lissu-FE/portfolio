@@ -18,26 +18,33 @@
     flex-wrap: wrap;
     gap: 16px;
   }
-  .one-icon {
-    background-color: #ffffff;
-    border-radius: 140px;
-    overflow: hidden;
-    width: 140px;
-    height: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .skill-icons {
-      padding: 20px;
-      max-width: 100px;
-      max-height: 100px;
-      &:hover {
-        filter: none;
-        -webkit-filter: none;
-      }
-      @media (hover: hover) {
-        -webkit-filter: grayscale(1);
-        filter: grayscale(1);
+  .one-skill {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 16px;
+    text-align: center;
+    font-weight: 500;
+    .one-icon {
+      background-color: #ffffff;
+      border-radius: 140px;
+      overflow: hidden;
+      width: 140px;
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .skill-icons {
+        padding: 20px;
+        max-width: 100px;
+        max-height: 100px;
+        &:hover {
+          filter: none;
+          -webkit-filter: none;
+        }
+        @media (hover: hover) {
+          -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+        }
       }
     }
   }
