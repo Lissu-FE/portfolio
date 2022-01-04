@@ -3,7 +3,7 @@ import './AboutMeStyle.scss'
 const AboutMe = (props) => {
   return (
     <div className='about-me-wrapper'>
-      <div className='main-title'>About Me</div>
+      <div className='main-title'>About Me 👩🏼</div>
       <div>
         반갑습니다!
         <br />

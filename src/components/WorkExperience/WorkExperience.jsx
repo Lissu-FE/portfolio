@@ -3,7 +3,7 @@ import './WorkExperienceStyle.scss'
 const WorkExperience = () => {
   return (
     <div className='work-experience-wrapper'>
-      <div className='main-title'>Work Experience</div>
+      <div className='main-title'>Work Experience 💻</div>
       <div className='workbox-section'>
         <div className='my-position'>Middle-Tier Web Developer</div>
         <div>비즈아이솔루션</div>

@@ -3,6 +3,7 @@ import Hello from './Hello'
 import Skills from './Skills'
 import AboutMe from './AboutMe'
 import WorkExperience from './WorkExperience'
+import Contect from './Contect'
 import Footer from './Footer'
 
 const Main = () => {
@@ -13,6 +14,7 @@ const Main = () => {
       <Skills />
       <AboutMe />
       <WorkExperience />
+      <Contect />
       <Footer />
     </div>
   )
